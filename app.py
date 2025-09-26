@@ -108,7 +108,7 @@ def load_sample_data():
     return df
 
 @st.cache_data
-def read_csv(uploaded_file, date_col):
+def read_csv(/home/it/Desktop/rutuja pore/toll ):
     # Supports CSV or Excel via uploaded object
     try:
         if uploaded_file.name.endswith('.xlsx') or uploaded_file.name.endswith('.xls'):
